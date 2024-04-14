@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Parisienne&display=swap');
 
 :root {
-  --primary-color: #ff7e01;
-  --secondary-color: #faa935;
+  --primary-color: #008827;
+  --secondary-color: #63ed81;
   --heading-color: #0b2727;
   --text-color: #6e7074;
-  --font-name: "Montserrat", sans-serif;
-  --subtitle-font-name: "Island Moments", cursive;
+  --font-name: "Fredoka", sans-serif;
+  --subtitle-font-name: "Parisienne", cursive;
 }
 
 * {
@@ -48,40 +47,40 @@ ul {
   padding: 0.4rem 1.5rem !important;
 }
 
-.primary__btn a {
+.primary-btn a {
   font-size: 1.1rem;
   text-decoration: none;
   color: #fff;
 }
-.primary__btn a:hover {
+.primary-btn a:hover {
   color: inherit;
 }
-.secondary__btn {
+.secondary-btn {
   background: transparent !important;
   color: #0b2727 !important;
   border: none !important;
   font-weight: 500 !important;
 }
 
-.secondary__btn a {
+.secondary-btn a {
   text-decoration: none;
   font-size: 1.1rem;
   color: var(--heading-color);
 }
 
-.secondary__btn a:hover {
+.secondary-btn a:hover {
   color: inherit;
 }
 
-.section__subtitle {
-  background: var(--secondary-color);
+.section-subtitle {
+  background: var(--bs-success);
   font-family: var(--subtitle-font-name);
   width: max-content;
-  padding: 0px 0.5rem;
+  padding: 4px 8px;
   padding-right: 1rem;
 
   border-radius: 50px;
   font-weight: 500;
   font-size: 1.7rem;
-  color: var(--heading-color);
+  color: white;
 }
