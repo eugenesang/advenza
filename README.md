@@ -2,4 +2,4 @@
 
 ![advenza screenshot](./Screenshot.png)
 
-Tourism and Travel Planner
+Tourism and Travel connect
