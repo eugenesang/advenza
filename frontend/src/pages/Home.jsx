@@ -30,6 +30,21 @@ const Home = () => {
                         </p>
                     </div>
                 </Col>
+                <Col lg="2">
+                    <div className="hero-img-box">
+                        <img src={heroImg} alt="Hero" />
+                    </div>
+                </Col>
+                <Col lg="2">
+                    <div className="hero-img-box">
+                        <video src={heroVideo} controls />
+                    </div>
+                </Col>
+                <Col lg="2">
+                    <div className="hero-img-box">
+                        <img src={heroImg2} alt="Hero 2nd" />
+                    </div>
+                </Col>
             </Row>
         </Container>
        </section>
