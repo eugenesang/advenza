@@ -2,6 +2,6 @@
 
 ![advenza screenshot](./Screenshot.png)
 
-Tourism and Travel Planner
+Tourism and Travel connect
 
 Travel Connect is a travel matching platform
